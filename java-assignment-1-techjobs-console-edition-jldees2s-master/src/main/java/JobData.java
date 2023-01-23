@@ -105,7 +105,7 @@ public class JobData {
             for (String i : row.values()) {
                String aValue = row.get(i);
 
-                if (aValue.toString().toLowerCase().contains(value.toLowerCase())) {
+                if (aValue.toLowerCase().contains(value.toLowerCase())) {
                     jobs.add(row);
                 }
             }
