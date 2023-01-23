@@ -123,7 +123,7 @@ public class TechJobs {
         if (!someJobs.isEmpty()) {
 
             for (Map<String, String> jobs : someJobs){
-                System.out.println("*****");
+                System.out.println("\n*****");
 
                 for (Map.Entry<String, String> map : jobs.entrySet()) {
                     System.out.println(map.getKey()+ ": " + map.getValue());
