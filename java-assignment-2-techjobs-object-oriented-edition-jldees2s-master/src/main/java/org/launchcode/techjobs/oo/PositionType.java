@@ -41,7 +41,6 @@ public class PositionType {
         result = 31 * result + value.hashCode();
         return result;
     }
-
     // Getters and Setters:
 
     public int getId() {
